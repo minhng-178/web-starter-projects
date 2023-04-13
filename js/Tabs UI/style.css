@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    margin: 0 auto;
+    width: calc(100% - 48px);
+    max-width: 720px;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs__line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #c23564;
+    border-radius: 999px;
+    height: 5px;
+    transition: left 0.5s ease;
+}
+
+.tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px 16px;
+    font-size: 2rem;
+    color: #c23564;
+    border-bottom: 5px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+
+.tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+    cursor: pointer;
+}
+
+.tab-item--active {
+    opacity: 1;
+}
+
+.tab-item__icon {
+    font-size: 2.4rem;
+    padding-right: 5px;
+}
+
+/* Rotate pen-nib icon */
+.tab-item:nth-child(4) .tab-item__icon {
+    transform: rotate(95deg);
+    padding-right: 0;
+}
+.tab-item:nth-child(4) .tab-item__title {
+    transform: translateX(5px)
+}
+
+/* ===== tab-content ===== */
+.tab-content {
+    padding-top: 28px;
+    width: 90%;
+}
+
+.tab-pane {
+    color: #333;
+    display: none;
+}
+
+.tab-pane--active {
+    display: block;
+}
+
+.tab-pane__title {
+    font-size: 2.4rem;
+}
+
+.tab-pane__desc {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
