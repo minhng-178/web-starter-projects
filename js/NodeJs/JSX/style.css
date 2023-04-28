@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    position: relative;
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 8px 12px;
+    min-width: 100px;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: #333;
+    z-index: -2;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    background: #e15151;
+    z-index: -1;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    background: transparent;
+}
+
+.btn:hover::after {
+    height: 100%;
+}
