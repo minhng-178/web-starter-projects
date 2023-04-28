@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains a collection of small projects that focus purely on HTML, CSS, and JavaScript. These projects are inspired by the curriculum of F8 - an online programming school based in Vietnam.
+This repository contains a collection of small projects that focus purely on HTML, CSS, and JavaScript. These projects are inspired by the curriculum of [F8](https://fullstack.edu.vn) - an online programming website in Vietnam.
 
 Each project is designed to be simple and intuitive, making it perfect for beginners who want to gain practical experience in web development. The code in this repository is well-organized, easy to understand, and fully customizable.
 
