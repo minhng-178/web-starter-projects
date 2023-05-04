@@ -1,0 +1,19 @@
+.btn {
+    padding: 4px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .active {
+    background-color: red;
+  }
+  
+  .primary {
+    color: #fff;
+    background-color: #007bfe;
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }

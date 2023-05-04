@@ -214,26 +214,83 @@
 //   );
 // }
 
-import {  useImperativeHandle, useRef } from "react";
-import Video from "./Video";
-function App() {
-  const videoRef = useRef();
+// import {  useImperativeHandle, useRef } from "react";
+// import Video from "./Video";
+// function App() {
+//   const videoRef = useRef();
 
-  const handlePlay = () => {
-    videoRef.current.play();
-  };
+//   const handlePlay = () => {
+//     videoRef.current.play();
+//   };
 
-  const handlePause = () => {
-    videoRef.current.pause();
-  };
+//   const handlePause = () => {
+//     videoRef.current.pause();
+//   };
 
+//   return (
+//     <div style={{ padding: "20px" }}>
+//       <Video ref={videoRef} />
+//       <button onClick={handlePlay}>Play</button>
+//       <button onClick={handlePause}>Stop</button>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import "./App.css";
+// import Heading from "./Heading";
+// import Paragraph from "./Paragraph";
+
+// export default function App() {
+//   return (
+//     <div style={{ padding: "0 32px" }}>
+//       <Heading />
+//       <Paragraph />
+//     </div>
+//   );
+// }
+// import Button from "./component/Button/index";
+// import GlobalStyles from "./component/GlobalStyles";
+
+// export default function App() {
+//   return (
+//     <GlobalStyles>
+//       <div style={{padding: '10px 32px'}}>
+//         <Button></Button>
+//         <Button primary></Button>
+//         <Button primary disabled></Button>
+//       </div>
+//     </GlobalStyles>
+//   );
+// }
+import { Routes, Route, Link } from "react-router-dom";
+import HomePage from "./pages/Home";
+import NewsPage from "./pages/News";
+import ContactPage from "./pages/Contact";
+
+export default function App() {
   return (
-    <div style={{ padding: "20px" }}>
-      <Video ref={videoRef} />
-      <button onClick={handlePlay}>Play</button>
-      <button onClick={handlePause}>Stop</button>
+    <div className="app">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/news">News</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/news" element={<NewsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
