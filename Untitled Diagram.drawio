@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T04:55:13.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="LzQyt8DIkYS4ASsBcfLu" version="21.3.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-05-27T05:09:17.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="zdXKTaJp_uVHG5RGRCpP" version="21.3.3" type="github" pages="15">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="2100" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1304,7 +1304,7 @@
         <mxCell id="T81vq8zUW3Z0uTAZQcPN-2" value="Manage&lt;br&gt;Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="T81vq8zUW3Z0uTAZQcPN-1">
           <mxGeometry x="50" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T81vq8zUW3Z0uTAZQcPN-3" value="Dectivate&lt;br&gt;Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="T81vq8zUW3Z0uTAZQcPN-1">
+        <mxCell id="T81vq8zUW3Z0uTAZQcPN-3" value="Deactivate&lt;br&gt;Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="T81vq8zUW3Z0uTAZQcPN-1">
           <mxGeometry x="210" y="100" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T81vq8zUW3Z0uTAZQcPN-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="T81vq8zUW3Z0uTAZQcPN-1" source="T81vq8zUW3Z0uTAZQcPN-3" target="T81vq8zUW3Z0uTAZQcPN-2">
@@ -1314,6 +1314,70 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T81vq8zUW3Z0uTAZQcPN-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="c1f4XNBcgIHWYrohkm0C-1" source="T81vq8zUW3Z0uTAZQcPN-0" target="T81vq8zUW3Z0uTAZQcPN-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C2lUm7x1JXp9nGc1JdGA" name="SWR-admin-2.1">
+    <mxGraphModel dx="1250" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-2" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-3" value="Manage&lt;br&gt;Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="wE3QtCNuLRpLbcVz_z2T-2">
+          <mxGeometry x="50" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-4" value="Activate&lt;br&gt;Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="wE3QtCNuLRpLbcVz_z2T-2">
+          <mxGeometry x="210" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wE3QtCNuLRpLbcVz_z2T-2" source="wE3QtCNuLRpLbcVz_z2T-4" target="wE3QtCNuLRpLbcVz_z2T-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="190" as="sourcePoint" />
+            <mxPoint x="210" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wE3QtCNuLRpLbcVz_z2T-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wE3QtCNuLRpLbcVz_z2T-1" target="wE3QtCNuLRpLbcVz_z2T-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SWR-admin-2.2" id="JxkUfGQvlomtY7wWVYm2">
+    <mxGraphModel dx="1250" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-0" />
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-1" parent="ug_EdiWWgd7G4UOIlEuZ-0" />
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ug_EdiWWgd7G4UOIlEuZ-1">
+          <mxGeometry x="120" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-3" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ug_EdiWWgd7G4UOIlEuZ-1">
+          <mxGeometry x="230" y="190" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-4" value="Manage&lt;br&gt;Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ug_EdiWWgd7G4UOIlEuZ-3">
+          <mxGeometry x="50" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-5" value="Deactivate&lt;br&gt;Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ug_EdiWWgd7G4UOIlEuZ-3">
+          <mxGeometry x="210" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ug_EdiWWgd7G4UOIlEuZ-3" source="ug_EdiWWgd7G4UOIlEuZ-5" target="ug_EdiWWgd7G4UOIlEuZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="190" as="sourcePoint" />
+            <mxPoint x="210" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ug_EdiWWgd7G4UOIlEuZ-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ug_EdiWWgd7G4UOIlEuZ-1" source="ug_EdiWWgd7G4UOIlEuZ-2" target="ug_EdiWWgd7G4UOIlEuZ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="350" as="sourcePoint" />
             <mxPoint x="450" y="300" as="targetPoint" />
