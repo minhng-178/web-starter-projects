@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T11:23:42.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="_LGFFWdfaLkgXZArLjcd" version="21.3.4" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-05-28T11:34:27.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="TN3v_P2XAh4wePKE1evc" version="21.3.4" type="github" pages="20">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="2100" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1536,6 +1536,171 @@
             <mxPoint x="460" y="350" as="sourcePoint" />
             <mxPoint x="510" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SWR-Instructor-1.2" id="QK_0vx1nsaPQnpXK1mSq">
+    <mxGraphModel dx="1250" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-0" />
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-1" parent="PG8nAAUyd7aKaMHyctnt-0" />
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-2" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PG8nAAUyd7aKaMHyctnt-1">
+          <mxGeometry x="200" y="240" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-3" value="Manage Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PG8nAAUyd7aKaMHyctnt-2">
+          <mxGeometry x="50" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-4" value="Edit Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PG8nAAUyd7aKaMHyctnt-2">
+          <mxGeometry x="230" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PG8nAAUyd7aKaMHyctnt-2" source="PG8nAAUyd7aKaMHyctnt-4" target="PG8nAAUyd7aKaMHyctnt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-6" value="Instructor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="PG8nAAUyd7aKaMHyctnt-1">
+          <mxGeometry x="110" y="305" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PG8nAAUyd7aKaMHyctnt-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PG8nAAUyd7aKaMHyctnt-1" source="PG8nAAUyd7aKaMHyctnt-6" target="PG8nAAUyd7aKaMHyctnt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SWR-Instructor-1.3" id="A3YJWR4n0ONpDWNkE-q8">
+    <mxGraphModel dx="1250" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-0" />
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-1" parent="pZKasp8ePjAl6dFGKlDj-0" />
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-2" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="pZKasp8ePjAl6dFGKlDj-1">
+          <mxGeometry x="200" y="240" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-3" value="Manage Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pZKasp8ePjAl6dFGKlDj-2">
+          <mxGeometry x="50" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-4" value="Delete Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="pZKasp8ePjAl6dFGKlDj-2">
+          <mxGeometry x="230" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pZKasp8ePjAl6dFGKlDj-2" source="pZKasp8ePjAl6dFGKlDj-4" target="pZKasp8ePjAl6dFGKlDj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-6" value="Instructor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="pZKasp8ePjAl6dFGKlDj-1">
+          <mxGeometry x="110" y="305" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZKasp8ePjAl6dFGKlDj-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pZKasp8ePjAl6dFGKlDj-1" source="pZKasp8ePjAl6dFGKlDj-6" target="pZKasp8ePjAl6dFGKlDj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OFr9-dxp3BoDp6V2QeAi" name="SWR-customer">
+    <mxGraphModel dx="2100" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-1" value="Find Classes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="880" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-2" value="Find Class By Review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="920" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-3" value="Find Class By Qualification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="865" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-3" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="640" as="sourcePoint" />
+            <mxPoint x="660" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-2" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="730" as="sourcePoint" />
+            <mxPoint x="660" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-6" value="View Booking History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-7" value="Cancel Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-8" value="Find Class By Instructor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-8" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="sourcePoint" />
+            <mxPoint x="620" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-10" value="Review Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-7" target="uAnYb8ctfMnq_sEOwZVc-6">
+          <mxGeometry x="0.0173" y="11" relative="1" as="geometry">
+            <mxPoint x="630" y="640" as="sourcePoint" />
+            <mxPoint x="550" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-10" target="uAnYb8ctfMnq_sEOwZVc-6">
+          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
+            <mxPoint x="460" y="555" as="sourcePoint" />
+            <mxPoint x="392" y="584" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-13" value="View Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="755" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-14" value="Booking Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-14" target="uAnYb8ctfMnq_sEOwZVc-13">
+          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
+            <mxPoint x="460" y="635" as="sourcePoint" />
+            <mxPoint x="392" y="606" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-16" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="740" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-16" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="670" as="sourcePoint" />
+            <mxPoint x="630" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-16" target="uAnYb8ctfMnq_sEOwZVc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="sourcePoint" />
+            <mxPoint x="620" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-16" target="uAnYb8ctfMnq_sEOwZVc-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="sourcePoint" />
+            <mxPoint x="620" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-20" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="460" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
