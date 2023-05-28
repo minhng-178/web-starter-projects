@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T11:34:27.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="TN3v_P2XAh4wePKE1evc" version="21.3.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-05-28T11:39:57.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="3S8j9nUoUYoDAKq5Rzy4" version="21.3.4" type="github" pages="20">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="2100" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1609,72 +1609,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-1" value="Find Classes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="880" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-2" value="Find Class By Review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="920" width="149" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-3" value="Find Class By Qualification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="865" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-3" target="uAnYb8ctfMnq_sEOwZVc-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="640" as="sourcePoint" />
-            <mxPoint x="660" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-2" target="uAnYb8ctfMnq_sEOwZVc-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="730" as="sourcePoint" />
-            <mxPoint x="660" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-6" value="View Booking History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="620" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-7" value="Cancel Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="580" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-8" value="Find Class By Instructor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="810" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-8" target="uAnYb8ctfMnq_sEOwZVc-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="670" as="sourcePoint" />
-            <mxPoint x="620" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-10" value="Review Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="650" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-7" target="uAnYb8ctfMnq_sEOwZVc-6">
-          <mxGeometry x="0.0173" y="11" relative="1" as="geometry">
-            <mxPoint x="630" y="640" as="sourcePoint" />
-            <mxPoint x="550" y="640" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-10" target="uAnYb8ctfMnq_sEOwZVc-6">
-          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
-            <mxPoint x="460" y="555" as="sourcePoint" />
-            <mxPoint x="392" y="584" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-13" value="View Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="755" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-14" value="Booking Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="720" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAnYb8ctfMnq_sEOwZVc-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-14" target="uAnYb8ctfMnq_sEOwZVc-13">
-          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
-            <mxPoint x="460" y="635" as="sourcePoint" />
-            <mxPoint x="392" y="606" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uAnYb8ctfMnq_sEOwZVc-16" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="740" width="30" height="60" as="geometry" />
         </mxCell>
@@ -1682,9 +1616,7 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="670" as="sourcePoint" />
             <mxPoint x="630" y="620" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="240" y="900" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAnYb8ctfMnq_sEOwZVc-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uAnYb8ctfMnq_sEOwZVc-16" target="uAnYb8ctfMnq_sEOwZVc-6">
@@ -1700,7 +1632,79 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAnYb8ctfMnq_sEOwZVc-20" value="Yoga Center System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="510" width="460" height="490" as="geometry" />
+          <mxGeometry x="120" y="480" width="500" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-1" value="Find Classes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="70" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-2" value="Find Class By Review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="280" y="480" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-2" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-3" value="Find Class By Qualification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="280" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-3" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="160" as="sourcePoint" />
+            <mxPoint x="540" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-8" value="Find Class By Instructor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="274.5" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-8" target="uAnYb8ctfMnq_sEOwZVc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="190" as="sourcePoint" />
+            <mxPoint x="500" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-6" value="View Booking History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="70" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-13" value="View Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="60" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-14" value="Booking Class" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="245" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-14" target="uAnYb8ctfMnq_sEOwZVc-13">
+          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
+            <mxPoint x="340" y="155" as="sourcePoint" />
+            <mxPoint x="272" y="126" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-7" value="Cancel Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="260" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-7" target="uAnYb8ctfMnq_sEOwZVc-6">
+          <mxGeometry x="0.0173" y="11" relative="1" as="geometry">
+            <mxPoint x="510" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-10" value="Review Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="294.5" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAnYb8ctfMnq_sEOwZVc-20" source="uAnYb8ctfMnq_sEOwZVc-10" target="uAnYb8ctfMnq_sEOwZVc-6">
+          <mxGeometry x="-0.2534" y="12" relative="1" as="geometry">
+            <mxPoint x="340" y="75" as="sourcePoint" />
+            <mxPoint x="272" y="104" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-21" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="80" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAnYb8ctfMnq_sEOwZVc-22" value="Update&lt;br&gt;Profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAnYb8ctfMnq_sEOwZVc-20">
+          <mxGeometry x="70" y="120" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
