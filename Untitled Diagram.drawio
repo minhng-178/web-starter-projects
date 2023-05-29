@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T10:40:20.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="00yE9B0OhNPU_wnOo7a-" version="20.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-29T10:52:30.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="IEqurC5v3zQ8Sp9M66u2" version="20.2.2" type="github" pages="4">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="1632" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -636,7 +636,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w0L2qP_-RV1vES2DfaKn" name="SWR1">
-    <mxGraphModel dx="2894" dy="2044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1823" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,7 +673,7 @@
         <mxCell id="eKWYcCDG9q7XXdZC_u57-4" value="Enroll Course" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
           <mxGeometry x="80" y="850" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eKWYcCDG9q7XXdZC_u57-6" value="View timetable" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
+        <mxCell id="eKWYcCDG9q7XXdZC_u57-6" value="View Timetable" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
           <mxGeometry x="80" y="940" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eKWYcCDG9q7XXdZC_u57-9" value="View Student&lt;br&gt;Lists" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
@@ -927,13 +927,13 @@
             <mxPoint x="860" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKWYcCDG9q7XXdZC_u57-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eKWYcCDG9q7XXdZC_u57-42" target="tLT3ztdkOYTyCq256h4c-32" edge="1">
+        <mxCell id="eKWYcCDG9q7XXdZC_u57-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eKWYcCDG9q7XXdZC_u57-42" target="tLT3ztdkOYTyCq256h4c-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810" y="270" as="sourcePoint" />
             <mxPoint x="860" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eKWYcCDG9q7XXdZC_u57-70" value="" style="endArrow=block;html=1;rounded=0;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="eKWYcCDG9q7XXdZC_u57-42" target="tLT3ztdkOYTyCq256h4c-9" edge="1">
+        <mxCell id="eKWYcCDG9q7XXdZC_u57-70" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="eKWYcCDG9q7XXdZC_u57-42" target="tLT3ztdkOYTyCq256h4c-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="25" y="540" as="sourcePoint" />
             <mxPoint x="1423" y="526" as="targetPoint" />
