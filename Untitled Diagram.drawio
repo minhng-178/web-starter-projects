@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T13:44:04.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="XPZgtD8a0nLSOFF7qBfj" version="21.3.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T15:01:13.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="QOQpsjJusuaIOccEKKSH" version="21.3.6" type="github" pages="4">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="2100" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -652,7 +652,7 @@
         <mxCell id="tLT3ztdkOYTyCq256h4c-22" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
           <mxGeometry x="840" y="610" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tLT3ztdkOYTyCq256h4c-23" value="Update Profile" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
+        <mxCell id="tLT3ztdkOYTyCq256h4c-23" value="Get Account Information" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
           <mxGeometry x="840" y="710" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tLT3ztdkOYTyCq256h4c-30" value="Manage User" style="ellipse;whiteSpace=wrap;html=1;" parent="tLT3ztdkOYTyCq256h4c-4" vertex="1">
