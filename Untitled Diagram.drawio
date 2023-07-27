@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T07:41:24.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="cw_BOi2GYtZ8o-FohhY0" version="21.6.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-07-27T07:48:03.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="FcmBsUnLFjIlJlibwP5h" version="21.6.1" type="github" pages="15">
   <diagram name="SWP1" id="MrMd92r9Plxw8csmyKqU">
     <mxGraphModel dx="1840" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1201,7 +1201,7 @@
         <mxCell id="Fwtf29QLA7M-r4LVm6N6-26" value="Guest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="240" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Fwtf29QLA7M-r4LVm6N6-32" value="+ login()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fwtf29QLA7M-r4LVm6N6-26">
+        <mxCell id="Fwtf29QLA7M-r4LVm6N6-32" value="+ register()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fwtf29QLA7M-r4LVm6N6-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fwtf29QLA7M-r4LVm6N6-34" value="+ view_package()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fwtf29QLA7M-r4LVm6N6-26">
